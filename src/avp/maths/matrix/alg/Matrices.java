@@ -38,42 +38,57 @@ public class Matrices {
 	 * @exception UnsupportedMatrixException si las matrices de entrada no son compatibles.
 	 * Este método devuelve una matriz resultado de la multiplicación de dos matrices a y b pasadas como
 	 * */
+	
 	public static Matrix multiplyMatrix(Matrix a, Matrix b){
-		if(a.getColumnSize()!=b.getRowSize())
-			throw new UnsupportedMatrixException();
+//		if(a.getColumnSize()!=b.getRowSize())
+//			throw new UnsupportedMatrixException();
 		
 		Matrix res=new MatrixImpl(a.getRowSize(), b.getColumnSize());
-		Integer index_a_row=0;
-		Integer index_a_column=0;
-		Integer index_b_row=0;
-		Integer index_b_column=0;
 		Double acum=0.0;
-		
-		while(!index_a_row.equals(a.getRowSize())) /*Deja fija la fila de la matríz A*/{
-			
-			while(!index_b_column.equals(b.getColumnSize())){
-				/**/
-				
-				while(!index_a_column.equals(a.getColumnSize()) && !index_b_row.equals(b.getRowSize())){
-					
-					acum=acum+(a.getCell(index_a_row, index_a_column)*b.getCell(index_b_row, index_b_column));
-					
-					res.setCell(index_a_row, index_b_column, acum);
-					
-					index_a_column++;
-					index_b_row++;
+		if(a.getRowSize()==1){
+			res.setCell(0, 0, a.getCell(0, 0)*b.getCell(0, 0));
+		} else {
+			for(Integer i_a=0;i_a<a.getRowSize();i_a++){
+				for(Integer j_b=0;j_b<b.getColumnSize();j_b++){
+					for(Integer k=0;k<a.getColumnSize();k++){
+						acum+=a.getCell(i_a, k)*b.getCell(k, j_b);
+					}
+					res.setCell(i_a, j_b, acum);
+					acum=0.0;
 				}
-				acum=0.0;
-				index_b_column++;
-				index_a_column=0;
-				index_b_row=0;
 			}
-			index_a_row++;
-			index_b_column=0;
 		}
-		
 		return res;
 	}
+	
+	public static Double[][] multiplyMatrix(Double[][] a, Double[][] b){
+		//a.length = número de filas de la matriz a
+		//b.length = número de filas de la matriz b
+		
+		//a[0].length = número de columnas de la matriz a
+		//b[0].length = número de columnas de la matriz b
+		
+		Double[][] res=new Double [a.length][b[0].length];
+		
+		Double acum=0.0;
+		
+		if(a.length==1){
+			res[0][0]=a[0][0]*b[0][0];
+			
+		} else {			
+			for(Integer i_a=0;i_a<a.length;i_a++){				
+				for(Integer j_b=0;j_b<b[0].length;j_b++){					
+					for(Integer k=0;k<a[0].length;k++){						
+						acum+=a[i_a][k]*b[k][j_b];					
+					}
+					res[i_a][j_b]=acum;
+					acum=0.0;
+				}
+			}
+		}
+		return res;
+	}
+
 	
 	/**Devuelve una matríz resultado de multiplicar una matriz a por un número de tipo Double m, ambos son pasados como parámetros.
 	 * Orden de complejidad: O()*/
@@ -111,8 +126,8 @@ public class Matrices {
 	 * */
 	public static Matrix addMatrix(Matrix a, Matrix b){
 		
-		if(!a.getRowSize().equals(b.getRowSize()) && !a.getColumnSize().equals(b.getColumnSize()))
-			throw new UnsupportedMatrixException();
+//		if(!a.getRowSize().equals(b.getRowSize()) && !a.getColumnSize().equals(b.getColumnSize()))
+//			throw new UnsupportedMatrixException();
 		
 		Matrix res = new MatrixImpl(a.getRowSize(),a.getColumnSize());
 		
@@ -133,23 +148,32 @@ public class Matrices {
 		return res;
 	}
 	
-	public static Matrix addMatrixConcurrent(Matrix a, Matrix b){
-		if(!a.getRowSize().equals(b.getRowSize()) && !a.getColumnSize().equals(b.getColumnSize())){
-			throw new IllegalArgumentException();
-		}
-		
-		Matrix res=new MatrixImpl(a.getRowSize(), a.getColumnSize());
-		
-		
-		
-		return res;
-	}
 	
 	/**Devuelve una matriz resultado de restar la matriz b a la matriz a, ambas pasadas como parámetros.
 	 * Orden de complejidad: */
+//	public static Matrix subtractMatrix(Matrix a,Matrix b){
+//		Matrix neg=negMatrix(b);
+//		return addMatrix(a, neg);
+//	}
+	
 	public static Matrix subtractMatrix(Matrix a,Matrix b){
-		Matrix neg=negMatrix(b);
-		return addMatrix(a, neg);
+		Matrix res = new MatrixImpl(a.getRowSize(),a.getColumnSize());
+		
+		Double aux = 0.0;
+		Integer i=0;
+		Integer j=0;
+		
+		while(i<res.getRowSize()){
+			
+			while(j<res.getColumnSize()){
+				aux=a.getCell(i, j) - b.getCell(i, j);
+				res.setCell(i, j, aux);
+				j++;
+			}
+			j=0;
+			i++;
+		}
+		return res;
 	}
 
 	/**Devuelve la matriz opuesta a la matriz a pasada como parámetro.
@@ -395,5 +419,65 @@ public class Matrices {
 		
 		return res;
 	}
+	
+	
+	//Las matrices deben ser cuadradas
+	public static Matrix strassenAlgorithm(Matrix a, Matrix b){
+		Matrix res=new MatrixImpl(a.getRowSize(), a.getColumnSize());
+		
+		if(a.getRowSize()<=8){
+			res=Matrices.multiplyMatrix(a, b);
+		} else {
+		
+			Integer half = a.getColumnSize()/2;
+			
+			Matrix a11 = a.getSubMatrix(half, half, 0, 0);
+			Matrix a12 = a.getSubMatrix(half, half, 0, half);
+			Matrix a21 = a.getSubMatrix(half, half, half, 0);
+			Matrix a22 = a.getSubMatrix(half, half, half, half);
+			
+			Matrix b11 = b.getSubMatrix(half, half, 0, 0);
+			Matrix b12 = b.getSubMatrix(half, half, 0, half);
+			Matrix b21 = b.getSubMatrix(half, half, half, 0);
+			Matrix b22 = b.getSubMatrix(half, half, half, half);
+			
+			
+			Matrix m1 = strassenAlgorithm(Matrices.addMatrix(a11,a22),Matrices.addMatrix(b11, b22));
+			Matrix m2 = strassenAlgorithm(Matrices.addMatrix(a21, a22), b11);
+			Matrix m3 = strassenAlgorithm(a11, Matrices.subtractMatrix(b12, b22));
+			Matrix m4 = strassenAlgorithm(a22, Matrices.subtractMatrix(b21, b11));
+			Matrix m5 = strassenAlgorithm(Matrices.addMatrix(a11, a12), b22);
+			Matrix m6 = strassenAlgorithm(Matrices.subtractMatrix(a21, a11),Matrices.addMatrix(b11, b12));
+			Matrix m7 = strassenAlgorithm(Matrices.subtractMatrix(a12, a22),Matrices.addMatrix(b21, b22));
+			
+			Matrix c11 = Matrices.subtractMatrix(Matrices.addMatrix(m1, Matrices.addMatrix(m4, m7)),m5);
+			Matrix c12 = Matrices.addMatrix(m3, m5);
+			Matrix c21 = Matrices.addMatrix(m2, m4);
+			Matrix c22 = Matrices.subtractMatrix(Matrices.addMatrix(m1,Matrices.addMatrix(m3, m6)),m2);
+			
+			joinMatrices(c11,res,0,0);
+			joinMatrices(c12,res,0,half);
+			joinMatrices(c21,res,half,0);
+			joinMatrices(c22,res,half,half);
+		}
+		return res;
+	}
+	
+	/** Compone añade a la matriz joining la Matriz subMatrix que recibe como parámetro a partir de
+	 * la fila i y la columna j */
+	public static void joinMatrices(Matrix subMatrix, Matrix joining, Integer i, Integer j){
+		
+		Integer point_j = j;
+		Integer point_i=i;
+		for(Integer aux_i=0;aux_i<subMatrix.getRowSize();aux_i++){
+			for(Integer aux_j=0;aux_j<subMatrix.getColumnSize();aux_j++){
+				joining.setCell(point_i, point_j, subMatrix.getCell(aux_i, aux_j));
+				point_j++;
+			}
+			point_j=j;
+			point_i++;
+		}
+	}
+	
 	
 }

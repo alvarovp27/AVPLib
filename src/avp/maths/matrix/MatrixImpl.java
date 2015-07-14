@@ -105,6 +105,28 @@ public class MatrixImpl implements Matrix{
         }
     }
 
+	/**Devuelve un objeto de tipo Matrix que representa la submatriz de este objeto Matrix, de dimensiones rows x columns,
+	 * y a partir de la celda i,j de este objeto Matrix.*/
+	public MatrixImpl getSubMatrix(Integer rows, Integer columns, Integer i, Integer j) {
+		MatrixImpl res= new MatrixImpl(rows, columns);
+		Integer aux_i=i;
+		Integer aux_j=j;
+		
+		
+		for(Integer index_i=0;index_i<rows;index_i++){
+			for(Integer index_j=0;index_j<columns;index_j++){
+				res.setCell(index_i, index_j, getCell(aux_i, aux_j));
+				aux_j++;
+			}
+			aux_i++;
+			aux_j=j;
+			
+		}
+		
+		
+		return res;
+	}
+
 	
 
 }

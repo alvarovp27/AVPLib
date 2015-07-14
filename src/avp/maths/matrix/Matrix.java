@@ -6,6 +6,7 @@ public interface Matrix {
 	public Integer getColumnSize();
 	public String getMatrixDimension();
 	
+	public Matrix getSubMatrix(Integer rows, Integer columns, Integer i, Integer j);
 	
 	public void setCell(Integer index_i, Integer index_j, Double value);
 	public Double getCell(Integer index_i, Integer index_j);

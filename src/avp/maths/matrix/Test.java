@@ -38,11 +38,15 @@ public abstract class Test {
 		Double[][] m1 = { {0.0,0.0,0.0,0.0},{0.0,0.0,0.0,0.0},{-1.0,-1.0,1.0,1.0},{-2.0,-2.0,0.0,2.0} };
 		Double[][] m2 = { {1.0,0.0,0.0,0.0},{1.0,1.0,0.0,0.0},{1.0,-1.0,1.0,0.0},{1.0,-1.0,0.0,1.0} };
 		
+		
 //		Matrix m2 = new MatrixImpl(arrayM);
 //		m2.printMatrix();
 		
-//		Matrix m_1= new MatrixImpl(m1);
-//		Matrix m_2= new MatrixImpl(m2);
+		Matrix m_1= new MatrixImpl(m1);
+		Matrix m_2= new MatrixImpl(m2);
+		
+		Matrices.multiplyMatrix(m_1, m_2).printMatrix();
+		new MatrixImpl(Matrices.multiplyMatrix(m1, m2)).printMatrix();
 		
 //		m_1.printMatrix();
 //		m_2.printMatrix();
@@ -70,7 +74,6 @@ public abstract class Test {
 		Matrix m_3=new MatrixImpl(m3);
 		System.out.println("Valor del determinante: " +Matrices.determinant(m_3));
 		System.out.println();
-		
 		
 		Double[][] m4={ {0.0,-2.0,1.0,0.0,1.0},{1.0,2.0,1.0,3.0,0.0},{-2.0,1.0,-2.0,1.0,1.0},{1.0,1.0,0.0,0.0,1.0},{2.0,-2.0,1.0,2.0,-2.0}};
 		Matrix m_4=new MatrixImpl(m4);
@@ -116,6 +119,16 @@ public abstract class Test {
 		Matrix z3 =new MatrixImpl(z_3);
 		Matrix z4 = new MatrixImpl(z_4);
 		Matrices.addMatrix(z3, z4).printMatrix();
+		System.out.println();
+		
+		System.out.println("Pintando m_5...");
+		m_5.printMatrix();
+		System.out.println("Ejecución subMatrix de m_5");
+		m_5.getSubMatrix(2, 2, 3, 3).printMatrix();
+		System.out.println();
+		
+		System.out.println("Resultado de la multiplicación de matrices m_3 y m_6: ");
+		Matrices.multiplyMatrix(m_3, m_6).printMatrix();
 		System.out.println();
 	}
 
