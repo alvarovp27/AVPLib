@@ -1,0 +1,574 @@
+allow for,tener en cuenta
+allow for,prever
+answer back, replicar
+apply for, solicitar
+ask for,saber de alguien
+ask for,solicitar
+ask for,pedir
+be about to,estar a punto de
+be after,intentar encontrar
+be against,estar en contra de
+be back,regresar después de un largo tiempo de ausencia
+be back,regresar tras mucho tiempo
+be down on,abandonar
+be down on,dejar
+be for,estar a favor de
+be in,estar en casa
+be on to,encontrar
+be on to,descubrir
+be out,estar lejos de
+be up,levantarse de la cama
+bend down,inclinarse
+blow out,extinguir un fuego
+blow up,destruir con una explosión
+blow up,inflar con aire
+break down,destruir
+break down,estropearse
+break in,entrar a la fuerza
+break into,interrumpir
+break off,dividir
+break off,separar
+braek off,parar
+break off,terminar
+break out,escapar por la fuerza
+break out,comenzar
+break through,atravesar
+break up,desintegrarse
+break up,terminar
+break up,acabar
+bring about,conseguir
+bring back,traer de vuelta
+bring back,recordar
+bring down,derribar
+bring down,rebajar
+bring forward,proponer
+bring forward,presentar
+bring in,entrar
+bring in,introducir
+bring in,detener
+bring in,producir
+bring on,causar
+bring on,favorecer
+bring out,mostrar
+bring out,publicar
+bring round,convencer
+bring round,hacer volver en sí
+bring up,subir
+bring up,llamar la atención sobre,
+bring up,educar
+bring up,criar
+call at,visitar un lugar
+call for,recoger
+call in,hacer entrar
+call in,pedir la ayuda de
+call off,cancelar
+call on,visitar a una persona
+call out,exclamar
+call out,gritar
+call out,dar voces
+call up,llamar al servicio militar
+care about,preocuparse por
+carry on,continuar
+carry on with,seguir
+carry on with,continuar
+carry out,llevar a cabo
+carry out,realizar
+clear away,cambiar cosas de sitio
+clear away,cambiar cosas de orden
+clear off,pagar
+clear off,liquidar
+clear off,irse
+clear off,desaparecer
+clear out,limpiar
+clear out,desaparecer
+clear out,vaciar
+clear up,hacer bueno
+clear up,despejar después de la lluvia
+clear up,acabar
+clear up,resolver
+come across,encontrar por casualidad
+come upon,encontrar por casualidad
+come along,acompañar
+come on,acompañar
+come along,progresar
+come on,progresar
+come away,abandonar
+come back,regresar
+come back,recordar
+come down,descender
+come from,proceder
+come in,entrar
+come into,entrar
+come off,suceder
+come off,ocurrir
+come on, avanzar
+come on,venir
+come on,encontrar
+come out,ser revelado
+come out,ser publicado
+come out,declararse
+come out with,soltar
+come out with,descolgarse
+come over,visitar
+come round,visitar
+come round,volver en sí
+come up,levantar
+come up,ser mencionado
+come up to,subir
+come up to,acercarse
+come up to,encenderse
+compliment on,piropear
+concern about,preocuparse por
+cope with,arreglárselas para salir de obstáculos
+cope with,no poder soportar algo
+crawl up,ir a rastras
+cross over,cruzar al otro lado
+cut off,truncar
+check through,revisar
+deal out,repartir
+deal with,ocuparse
+deal with,tener relaciones con
+depend on,depender de
+depend on,confiar en
+dig up,desenterrar
+dig up,remover la tierra
+do away with,abolir
+do away with,suprimir
+do away with,deshacerse
+do out, recordar
+do out,renovar
+do up,cerrar
+do up,abrochar
+do up,redecorar
+do without,prescindir de
+draw away,apartar
+draw back,apartar
+draw up,parar los vehículos
+drift out to touch,perder el contacto
+drop in,entrar en un momento
+drop into,entrar en un momento
+drop in,visitar inesperadamente
+drop into,visitar inesperadamente
+drop off,dejar
+drop off,apearse
+drop off,bajar
+drop out,desprenderse
+drop out,abandonar
+drop out,dejar de asistir
+fall back on,recurrir
+fall back on,echar mano
+fall behind,quedarse atrás
+fall for,enamorarse de
+fall off,disminuir
+fall off,menguar
+fall trough,fracasar
+feel about,buscar a tientas
+feel like,apatecer
+feel for,compadecerse
+fill in,cumplimentar
+fill in,cubrir
+find out,descubrir
+find out,darse cuenta de
+get about,circular
+get about,viajar mucho
+get ahead,prosperar
+get away,escapar
+get away,quitar de en medio
+get back,regresar a casa
+get back,recuperar una posesión
+get down,bajar
+get in,llegar en transporte
+get in,entrar en un transporte
+get off,abandonar
+get off,escapar
+get on,hacer progresos
+get on,entrar
+get on with,tener amistad
+get on with,llearse bien con alguien
+get on with,progresar
+get out,escapar
+get out,abandonar
+get out off,ser libre de una ocupación
+get over,terminar
+get over,hacer comprender
+get over,vencer
+get over,reponerse de
+get round,persuadir
+get round to,encontrar tiempo
+get through,acabar
+get through,aprobar un examen
+get through,ponerse en contacto
+get up,levantarse de la cama
+get up,aprender
+get up,organizar
+give away,regalar
+give away,descubrir
+give away,traicionar
+give back,recuperar algo propio
+give back,devolver
+give in,dar
+give in,rendirse
+give in,consentir
+give out,enviar
+give out,anunciar
+give out,distribuir
+give up,cesar en un intento
+give up,dejar
+give up,abandonar
+give up,estropearse
+go about,andar de un sitio para otro
+go away,abandonar
+go away,marcharse
+go back,regresar
+go back on,faltar a algo
+go down,bajar
+go down,perder
+go down with,enfermar de
+go for,atacar
+go for,dedicarse a
+go for,ir por
+go in for,estar muy interesado en
+go in for,comprar
+go into,investigar
+go into,entrar en
+go in with,asociarse
+go off, irse
+go off,ocurrir
+go off,pasárselo
+go on,continuar
+go out,dejar ua casa
+go out,salir
+go out,desaparecer
+go out,apagar
+go over,repetir un examen
+go round,ser suficiente
+go round,dar vueltas
+go round,circular
+go through,examinar cuidadosamente
+go through,revisar
+go through,repasar
+go through with,terminar
+go through with,llevar un proyecto a cabo
+go up,subir
+go up,aumentar
+go with,acompañar
+go with,ir bien con
+go with,hacer juego con
+hand back,devolver
+hand down,bajar
+hand in,entregar
+hand out,distribuir
+hand over,entregar
+hand round,dar a cada persona un regalo
+hand round,pasar de mano en mano
+hold on,esperar al teléfono
+hold over,aplazar
+hold over,posponer
+hurry back,darse prisa para volver
+join in,participar en
+keep back,retener
+keep back,ocultar
+keep down,sujetar
+keep down,dominar
+keep in,no dejar salir
+keep in,mantener encendido
+keep in touch with,mantener contacto con
+keep on,continuar
+keep out,permanecer fuera
+keep out,excluir
+keep up,mantener
+knock out,dejar sin sentido
+lay in,proveerse de
+lay out,arreglar
+lay out,inventar
+lay out,derribar
+lay up,almacenar
+lay up,ahorrar
+leave off,parar de hacer algo
+leave out,omitir
+leave out,prescindir de
+let in,permitir la entrada
+let off,perdonar
+let off,dejar libre
+let off,alquilar
+let out,permitir salir
+listen to,prestar atención
+look away,apartar la mirada
+look after,cuidar
+look at,mirar
+look back,mirar hacia atrás
+look back,volver la cabeza
+look back,considerar el pasado
+look back,recordar
+look for,buscar
+look forward to,esperar algo con mucha ilusión
+look in,echar un vistazo
+look in,hacer una breve vista
+look in,mirar la TV
+look into,investigar
+look on,ser un espectador
+look on,considerar
+look out,buscar
+look out,mirar hacia fuera
+look out,tener cuidado
+look out for,valerse por sí mismo
+look out for,estar a la expectativa
+look over,releer
+look over,revisar
+look through,examinar con el fin de elegir
+look through,leer rápidamente
+look up,visitar
+look up,averiguar
+look up,mejorar
+make for,ir hacia
+make off,escaparse
+make out,comprender
+make out,reconocer
+make out,extender
+make out,arreglárselas
+make out,declarar con falsedad
+make up,inventar
+make up,deidir
+make up,poner junto a
+make up,apilar
+make up for,compensar por
+make up for,arreglar
+move away,mudarse de casa
+move away,alejar
+move away,apartar
+move in,hacer entrar
+move in,tomar posesión
+move into,mudarse
+move out,desalojar
+move out,trasladarse
+order about,dar muchas órdenes
+pass out,perder el conocimiento
+pay back,devolver
+pick out,elegir
+pick out,seleccionar
+pick up,recoger
+pick up,comprar
+pick up,detener
+pull down,demoler
+pull down,derribar
+pull off,suceder
+pull off,arrancar
+pull off,lograr con éxito
+pull through,salir de un apuro
+pull through,recuperarse de una enfermedad
+pull up,parar los coches
+put across,exponer
+put over,exponer
+put aside,poner a salvo para usar en el futuro
+put aside,rechazar
+put by,poner a salvo para usar en el futuro
+put by,rechazar
+put away,guardar
+put back,aplazar
+put back,devolver a su lugar
+put down,reprimir
+put down,escribir
+put forward,proponer
+put forward,adelantarse
+put in,hacer una queja
+put in,introducir
+put in for,solicitar un puesto
+put off,posponer
+put off,apagar
+put off,disuadir
+put off,alejar
+put on,vestir
+put on,ponerse ropa
+put on,encender
+put out,apagar
+put out,desconectar
+put out,publicar
+put out,sacar fuera
+be put out,estar enfadado
+put through,conectar
+put through,poner una llamada de teléfono
+put through,instalar
+put up,subir los precios
+put up,levantar un edificio
+put up,hospedar
+put up with,tener paciencia
+put up,aguantar
+ring off,poner final a una llamada telefónica
+ring off,colgar
+ring up,llamar por teléfono
+run after,perseguir
+run along,correr a lo largo de
+run away,escaparse
+run after,correr detrás de
+run down,atropellar
+run down,desacreditar
+run down,parar
+run in,detener
+run in,entrar corriendo
+run into,chocar
+run into,tropezar
+run into,encontrarse con algo inesperadamente
+run into,encontrar a alguien
+run across,encontrar a alguien
+run off,vaciar
+run off,dejar salir
+run off,irse corriendo
+run out of,acabarse las existencias
+run over,atropellar
+run over,rebasar el límite
+run through,traspasar
+run through,gastar
+run up,subir
+run up against,tropezar contra
+rush into,entrar precipitadamente
+see about,encargarse de
+see about,considerar
+see over,visitar
+see out,acompañar a la puerta
+see through,llevar a cabo
+see to,encargarse de
+see to,reparar
+set in,empezar
+set off,ponerse en camino
+set off,resaltar
+set off,despedir
+set out,comenzar un viaje
+set out,arreglar
+set up,establecer un récord
+set up,comenzar un nuevo negocio
+show up,llegar
+sit back,descansar
+sit back,sentarse cómodamente
+sit down,sentarse
+sit out,aguantar
+sit out,sentarse al aire libre
+sit up,incorporarse
+sit up,ponerse derecho
+sit up,darse cuenta
+slip in,deslizarse
+slip in,introducirse sin ruido
+slip out,deslizarse
+slip out,salir
+slip out,escapar
+smash up,destrozar
+spill over,desbordarse
+spill over,derramarse
+stand by,estar presente
+stand by,atenerse a
+stand for,representar
+stand for,ofrecerse para
+stand out,salir
+stand out,sobresalir
+stand out,mantenerse firme
+stand up for,defender oralmente
+stand up to,resistir
+step into,entrar
+step into,intervenir
+stick up,sobresalir
+stick up,estar con los pelos de punta
+swing around,girarse bruscamente
+take aback,retractarse
+take aback,desdecirse
+take aback,devolver
+take after,parecerse a
+take away,llevarse
+take away,restar
+take back,regresar
+take back,retirar
+take down,escribir un dictado
+take down,bajar
+take down,descolgar
+take in,comprender
+take in,recoger
+take in,engañar
+take in,embaucar
+take off,quitar
+take off,desvestirse
+take off,imitar
+take off,despegar
+take off,empezar a tener éxito
+take on,aceptar
+take on,contratar
+take on,quejarse
+take out,sacar
+take out,extraer
+take out,entretener
+take over,asumir una responsabilidad
+take over,tomar el control
+take over,tomar posesión
+take to,gustar
+take to,comenzar un hábito
+take up,comenzar un estudio
+take up,comenzar un deporte
+take up,ocupar
+talk back,replicar
+talk over,discutir sobre
+talk into,convencer
+talk on,no parar de hablar
+tend to,tener tendencia a
+think about,pensar acerca de
+think about,meditar
+think of,considerar
+think of,tener en cuenta
+think out,planear cuidadosamente
+think over,reflexionar
+think up,imaginar
+throw off,deshacerse de
+throw up,abandonar repentinamente
+throw up,vomitar
+trip over,tropezar
+trip over,caer
+try on,probarse la ropa
+try out,ensayar
+try out,poner a prueba
+turn away,impedir la entrada
+turn away,despedir
+turn back,dar la vuelta
+turn back,doblar
+turn down,rechazar un trabajo
+turn down,rechazar una oferta
+turn down,bajar
+turn in,ir a la cama
+turn into,llegar a ser
+turn into,convertirse
+turn off,apagar
+turn off,desconectar
+turn off,abandonar una dirección
+turn on,encender
+turn on,conectar
+turn out,apagar
+turn out,extinguir
+turn out,producir
+turn out,expulsar
+turn out,levantarse
+turn over,cambiar la posición
+turn over,ceder
+turn up,abrir
+turn up,abrir
+turn up,llegar
+turn up,aparecer
+turn up,suceder
+turn up,ocurrir
+turn upside down,causar confusión
+turn upside down,cambiar de posición
+wait for,esperar a
+wait on,servir a alguien
+wake up,despertarse
+walk in,entrar
+walk on,seguir andando
+walk through,guiar
+watch out,tener cuidado
+watch out,estar alerta
+wear away,gastar
+wear away,consumir
+wear off,quitarse
+wear off,desaparecer
+wear out,usar
+wind up,envolver
+wind up,enrollar
+wind up,dar vueltas
+work out,salir bien
+work out,resolver
+work out,agotar
+work up,desarrollar
+work up,fomentar
