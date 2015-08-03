@@ -34,7 +34,7 @@ public class StringReader {
 				System.out.println(linea);
 				String toWrite = "db.execSQL(\"INSERT INTO WORDTRANSLATIONS VALUES('";
 				String [] lineaSplit = linea.split(",");
-				toWrite+=lineaSplit[1]+",phrv,"+lineaSplit[0]+",phrv'\");\n";
+				toWrite+=lineaSplit[1]+"'"+",'phrv','"+lineaSplit[0]+"','phrv')\");\n";
 				
 				//bufferSalida.write(toWrite);
 				l.add(toWrite);
